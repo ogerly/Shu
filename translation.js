@@ -131,7 +131,7 @@ let translations = {
     "saySomething" : "Sag etwas",
     "seconds" : "Sekunden",
     "settings":"Einstellungen",
-    "startPageText":"Bitte wählen Sie einen Kanal auf der linken Seite. Sie können auch zu den Einstellungen gehen (drei Punkte oben rechts), um einen privaten Schlüssel zu importieren oder Ihre aktuellen Schlüssel zu sichern.",
+    "startPageText":"Keine Telefonnummern, keine Konten, nur Nachrichten. Bitte wählen Sie einen Kanal auf der linken Seite. Sie können auch zu den Einstellungen gehen (drei Punkte oben rechts), um einen privaten Schlüssel zu importieren oder Ihre aktuellen Schlüssel zu sichern.",
     "submit":"senden",
     "successAccountImported":"Ihr Konto wurde erfolgreich importiert.d",
     "unknown" : "Unbekannt",
