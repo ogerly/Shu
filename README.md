@@ -13,6 +13,6 @@ Nostr-Client
 "nostr" stands for "Notes and Other Stuff Transmitted by Relays" and is an open protocol for censorship-resistant global networks created by @fiatjaf.
 
 ### Fork 
-Shu is a Fork from [nostrgram](https://github.com/brilliancebitcoin/nostrgram)
+[Shu](https://ogerly.github.io/Shu/) is a Fork from [nostrgram](https://github.com/brilliancebitcoin/nostrgram)
 
  
