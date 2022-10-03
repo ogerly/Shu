@@ -17,7 +17,7 @@ Es ist nicht auf einen vertrauenswürdigen zentralen Server angewiesen und daher
 ![FireShot Capture 1250 - Shu - ogerly github io](https://user-images.githubusercontent.com/1324583/193471716-2886a7d5-b743-4d99-b120-43443fb3f7f5.png)
 
 ### Shu - Entwicklung
-Kanal-Id: 93eca5fc5e5be0608a4aad802082f6aa7484b9012040f3731d68598244e23ec5
+Kanal-Id: 73220d76b0ec7298077c31274533ceb1d64e3a6a8b69052809c96ca6424a886c
 
 
 ## Protokoll
