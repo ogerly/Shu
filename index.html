@@ -2369,6 +2369,10 @@
                     <h2 style="margin-top: 20px;" class="profile-pubkey-title">${name}'s ${t('_publicKey')}</h2>
                     <p class="profile-pubkey">${pubkey}</p>
                     <button class="dm" onclick="dmThisUser( '${pubkey}', '${name}', '${picture}' )">${t('directMessage')}</button>
+                    <h2 style="margin-top: 70px">${t('importUserPublicKey')}</h2>
+                    <p>${t('importUserPublicKeyText')}</p>
+                    <input class="add-user-input" type="text" placeholder="${t('importUserPublicKey')}" />
+                    <button class="dm" onclick="importUserByPubKey()">${t('import')}</button>
                 </div>
             `;
             document.getElementsByClassName( "content" )[ 0 ].innerHTML = html;
@@ -2420,6 +2424,29 @@
         }
     </script>
     <script>
+        function importUserByPubKey (){
+            let pubkey = document.getElementsByClassName( "add-user-input" )[ 0 ].value;
+
+            if ( pubkey.length != 64 ) {
+                showToast( `${t('mustBe32Byte')}` );
+                return;
+            }
+            if ( !(
+                isHex( pubkey.substring( 0, 8 ) )
+                && isHex( pubkey.substring( 8, 16 ) )
+                && isHex( pubkey.substring( 16, 24 ) )
+                && isHex( pubkey.substring( 24, 32 ) )
+                && isHex( pubkey.substring( 32, 40 ) )
+                && isHex( pubkey.substring( 40, 48 ) )
+                && isHex( pubkey.substring( 48, 56 ) )
+                && isHex( pubkey.substring( 56, 64 ) )
+                ) ) {
+                showToast( `${t('isNotHex')}` );
+                return;
+            }
+            const picture = "https://www.gravatar.com/avatar/" + pubKey + "?s=128&d=retro"
+            dmThisUser( pubkey, pubkey, picture)
+        }
         function dmThisUser( pubkey, name, picture ) {
             if ( !document.getElementsByClassName( pubkey.substring( 0, 20 ) )[ 0 ] ) {
                 document.getElementsByClassName( "channels" )[ 0 ].firstElementChild.innerHTML += displayDMbox( pubkey, name, picture );

@@ -29,6 +29,8 @@ let translations = {
     "imageUploadInfo":"There are no image uploads, but fear not! Paste an image from the web into your message and the next time you click this image button your image will appear here for easy access. By the way, images must be hosted externally (such as on imgur or imgbb) because I don't want to store a bunch of images.",
     "import":"Import",
     "importAccount":"Import an account",
+    "importUserPublicKey": "Import a user public key",
+    "importUserPublicKeyText": "Import a user public key and write a direct message to him",
     "importWalletError":"Something went wrong while importing your wallet, contact a developer for help",
     "invalidHexColor.":"Invalid HEX color.",
     "isNotHex":"your private key is not a hex-formatted string",
@@ -103,6 +105,8 @@ let translations = {
     "imageUploadInfo":"Es können keine Bilder hochgeladen werden, aber keine Sorge! Fügen Sie ein Bild aus dem Internet in Ihre Nachricht ein, und wenn Sie das nächste Mal auf diese Schaltfläche klicken, wird Ihr Bild hier angezeigt, damit Sie leicht darauf zugreifen können. Die Bilder müssen übrigens extern gehostet werden (z. B. auf imgur oder imgbb), weil ich nicht einen ganzen Haufen Bilder speichern möchte.",
     "import": "Importieren",
     "importAccount": "Ein User-Konto importieren",
+    "importUserPublicKey": "Importieren eines öffentlichen Benutzerschlüssels",
+    "importUserPublicKeyText": "Importiere den öffentlichen Schlüssel eines Benutzers und schreiben ihm eine direkte Nachricht",
     "importWalletError":"Beim Importieren Ihrer Wallet ist etwas schief gelaufen, kontaktieren Sie einen Entwickler für Hilfe",
     "invalidHexColor.":"Ungültige HEX-Farbe.",
     "isNotHex":"Ihr privater Schlüssel ist keine hex-Formatierte Zeichenkette",
@@ -149,7 +153,6 @@ let translations = {
     "NAME":"Shu"
   },
 };
-
 
 // The locale our app first shows
 const defaultLocale = "de";
