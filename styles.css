@@ -541,7 +541,7 @@ body {
     background: #4caf50;
 }
 
-.add-channel-input {
+.add-channel-input, .add-user-input {
     margin-top: 20px;
     display: inline-block;
     width: 80%;
