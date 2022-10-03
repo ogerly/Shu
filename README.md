@@ -1,4 +1,4 @@
-# Shu (Fernsprecheinrichtung) ist nun veröffentlicht
+# Shu (Freisprecheinrichtung) ist nun veröffentlicht
 Nostr-Client
 
 ![logo](https://user-images.githubusercontent.com/1324583/193504887-c237aa00-a00a-4113-9dcb-83af34e4474d.png)

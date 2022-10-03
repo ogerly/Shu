@@ -95,7 +95,7 @@ let translations = {
     "createChannel":"Einen Kanal erstellen",
     "day" : "Tag",
     "days" : "Tage",
-    "DESC":"Fernsprecheinrichtung",
+    "DESC":"Freisprecheinrichtung",
     "directMessage":"Direktnachricht an diesen Benutzer",
     "hour" : "Stunde",
     "hours" : "Stunden",
