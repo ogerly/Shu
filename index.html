@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -243,9 +243,9 @@
         }
     </script>
     <script>
-        if ( window.location.href.includes( "brilliancebitcoin.github.io/nostrgram" ) && !window.location.href.includes( "brilliancebitcoin.github.io/nostrgram-test" ) ) {
-            window.location.href = "https://anigma.io/";
-        }
+        // if ( window.location.href.includes( "brilliancebitcoin.github.io/nostrgram" ) && !window.location.href.includes( "brilliancebitcoin.github.io/nostrgram-test" ) ) {
+        //     window.location.href = "https://anigma.io/";
+        // }
         var { getSharedSecret, schnorr, utils } = nobleSecp256k1
         var crypto  = window.crypto 
         var getRand = size => crypto.getRandomValues(new Uint8Array(size))
@@ -261,7 +261,7 @@
             var privKey = keypair.privateKey.toString( "hex" )
             var pubKey  = keypair.publicKey.toString( "hex" )
             pubKey      = pubKey.substring( 2 )
-            var subscribed_channels = [ "25e5c82273a271cb1a840d0060391a0bf4965cafeb029d5ab55350b418953fbb, 0131aeab1069b4276edf893a7547986faaf23e5457c6d5ae0f99dda66e4b187c, d99e84c8e157fe490b69daf5baa27b78f6654e4762323d16f5b76b02d6e5496a" ];
+            var subscribed_channels = [ "25e5c82273a271cb1a840d0060391a0bf4965cafeb029d5ab55350b418953fbb, 0131aeab1069b4276edf893a7547986faaf23e5457c6d5ae0f99dda66e4b187c, 93eca5fc5e5be0608a4aad802082f6aa7484b9012040f3731d68598244e23ec5" ];
             var relay = "wss://relay.damus.io";
             var stuff_to_backup = {}
             stuff_to_backup[ "privkey" ] = privKey;
