@@ -1,6 +1,10 @@
 # Shu (Fernsprecheinrichtung) ist nun veröffentlicht
 Nostr-Client
 
+![logo](https://user-images.githubusercontent.com/1324583/193504887-c237aa00-a00a-4113-9dcb-83af34e4474d.png)
+
+
+
 Shu ist im Kern eine öffentliche Messaging-App mit privaten, verschlüsselten Direktnachrichten. Es ist eina Art Telegramm-Klon, der auf dem Nostr-Protokoll basiert. Keine Telefonnummern, keine Konten, nur Nachrichten. Shu ist eine progressive Web-App. Das bedeutet, dass die Website auf Ihrem Gerät installiert werden kann, so dass sie wie ein natives Programm aussieht und sich auch so verhält, unabhängig davon, auf welchem Telefon oder Gerät sie verwendet wird. Der größte Unterschied zwischen Shu und Telegram ist, dass Telegram Ihre Nachrichten zensieren und Sie von der Plattform werfen kann.
 
 Es ist nicht auf einen vertrauenswürdigen zentralen Server angewiesen und daher widerstandsfähig; es basiert auf kryptografischen Schlüsseln und Signaturen und ist daher fälschungssicher; es beruht nicht auf P2P-Techniken und funktioniert daher.
